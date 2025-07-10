@@ -85,13 +85,13 @@ export default function SignInForm() {
             </div>
             <form>
               <div className="space-y-6">
-                <div>
+                <div className="capitalize">
                   <Label>
-                    Email <span className="text-error-500">*</span>{" "}
+                    Employee code <span className="text-error-500">*</span>{" "}
                   </Label>
-                  <Input placeholder="info@gmail.com" />
+                  <Input placeholder="Enter your Employee code" />
                 </div>
-                <div>
+                <div className="capitalize">
                   <Label>
                     Password <span className="text-error-500">*</span>{" "}
                   </Label>
@@ -121,7 +121,7 @@ export default function SignInForm() {
                   </div>
                   <Link
                     to="/reset-password"
-                    className="text-sm text-brand-500 hover:text-brand-600 dark:text-brand-400"
+                    className="text-brand-500 hover:text-brand-600 dark:text-brand-400"
                   >
                     Forgot password?
                   </Link>

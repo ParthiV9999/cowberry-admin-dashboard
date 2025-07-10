@@ -41,14 +41,21 @@ layer(base);
   --color-white: #ffffff;
   --color-black: #101828;
 
+  --color-cowberry-green-300: #9BB9AA;
+  --color-cowberry-green-400: #67bc38;
+  --color-cowberry-green-500: #377355;
+  --color-cowberry-green-600: #184719;
+
   --color-brand-25: #f2f7ff;
   --color-brand-50: #ecf3ff;
   --color-brand-100: #dde9ff;
   --color-brand-200: #c2d6ff;
-  --color-brand-300: #9cb9ff;
-  --color-brand-400: #7592ff;
-  --color-brand-500: #465fff;
-  --color-brand-600: #3641f5;
+
+  --color-brand-300: #9BB9AA;
+  --color-brand-400: #67bc38;
+  --color-brand-500: #377355;
+  --color-brand-600: #184719;
+
   --color-brand-700: #2a31d8;
   --color-brand-800: #252dae;
   --color-brand-900: #262e89;
